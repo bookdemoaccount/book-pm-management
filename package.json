@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "description": "Practical Product Management — book artifacts and Pulse example app",
   "scripts": {
-    "dev": "cd pulse && npm run dev",
-    "build": "cd pulse && npm run build",
-    "preview": "cd pulse && npm run preview",
-    "install:app": "cd pulse && npm install"
+    "dev": "npm run dev -w pulse",
+    "build": "npm run build -w pulse",
+    "preview": "npm run preview -w pulse",
+    "install:app": "npm install -w pulse"
   },
   "workspaces": ["pulse"]
 }
