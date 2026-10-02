@@ -1,0 +1,13 @@
+{
+  "name": "book-pm-management",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Practical Product Management — book artifacts and Pulse example app",
+  "scripts": {
+    "dev": "cd pulse && npm run dev",
+    "build": "cd pulse && npm run build",
+    "preview": "cd pulse && npm run preview",
+    "install:app": "cd pulse && npm install"
+  },
+  "workspaces": ["pulse"]
+}
